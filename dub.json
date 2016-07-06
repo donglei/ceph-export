@@ -1,0 +1,10 @@
+{
+	"name": "ceph-export",
+	"authors": [
+		"root"
+	],
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2016, root",
+	"license": "proprietary",
+	"libs": [ "rados"],
+}
