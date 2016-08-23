@@ -50,7 +50,9 @@ string exportFile(string filename, string hash)
 		if(n < 0)
 		{
 			//error 
-			throw new Exception("error ");
+			//throw new Exception("error ");
+			import std.conv;
+			return filename ~" not exist " ~ to!(string)(n);
 		}
 		binaryData.put(buf[0 .. n]);
 		size += n;
